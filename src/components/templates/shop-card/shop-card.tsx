@@ -44,7 +44,7 @@ interface Props {
 
 const getActiveTheme = (id: string, isDark?: boolean) => {
   switch (id) {
-    case 'nextui':
+    case 'matrix':
       return;
     case 'modern':
       return isDark ? darkModernTheme : lightModernTheme;

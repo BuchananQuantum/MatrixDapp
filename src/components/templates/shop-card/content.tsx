@@ -5,7 +5,7 @@ import { Logo } from '@components';
 const themes = [
   {
     id: 'nextui',
-    title: 'NextUI',
+    title: 'Matrix',
     icon: () => (
       <Logo
         small
