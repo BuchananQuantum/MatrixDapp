@@ -1,0 +1,69 @@
+{
+    "routes": [
+        {
+            "title": "Matrix Martketplace",
+            "keywords": "web3, matrix, market, marketplace, getting started, getMatrix, qrc",
+            "subtitle": "For an advanced search please use the search input",
+            "icon": "note",
+            "section": "Scope",
+            "heading": true,
+            "routes": [
+                {
+                    "title": "Matrix",
+                    "open": true,
+                    "keywords": "matrix, getting started, start, getMatrix",
+                    "icon": "/paper.svg",
+                    "routes": [
+                        {
+                            "title": "Getting Started",
+                            "keywords": "getting started, start, nextui",
+                            "path": "/marketplace/guide/getting-started.mdx"
+                        },
+                        {
+                            "title": "getMatrix",
+                            "keywords": "qrc, global, getMatrix",
+                            "path": "/marketplace/guide/getMatrix.mdx"
+                        }
+                    ]
+                },
+                {
+                    "title": "Matrix Market",
+                    "keywords": "matrix, market, web3, sellers",
+                    "icon": "/category.svg",
+                    "open": true,
+                    "routes": [
+                        {
+                            "title": "Community",
+                            "updated": true,
+                            "path": "/marketplace/category/community.mdx"
+                        },
+                        {
+                            "title": "Services",
+                            "path": "/marketplace/category/services.mdx"
+                        },
+                        {
+                            "title": "Housing",
+                            "path": "/marketplace/category/housing.mdx"
+                        },
+                        {
+                            "title": "For Sale",
+                            "path": "/marketplace/category/for-sale.mdx"
+                        },
+                        {
+                            "title": "Jobs",
+                            "path": "/marketplace/category/jobs.mdx"
+                        },
+                        {
+                            "title": "Gigs",
+                            "path": "/marketplace/category/gigs.mdx"
+                        },
+                        {
+                            "title": "Personals",
+                            "path": "/marketplace/category/personals.mdx"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

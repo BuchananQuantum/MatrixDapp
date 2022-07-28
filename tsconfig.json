@@ -1,7 +1,50 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "baseUrl": ".",
+    "paths": {
+      "@components": [
+        "./src/components/index.ts"
+      ],
+      "@primitives": [
+        "./src/components/primitives/index.ts"
+      ],
+      "@components/": [
+        "./src/components/*"
+      ],
+      "@content/*": [
+        "./content/*"
+      ],
+      "@layouts/*": [
+        "./src/layouts/*"
+      ],
+      "@hooks/*": [
+        "./src/hooks/*"
+      ],
+      "@multiauth/*": [
+        "./src/multiauth/*"
+      ],
+      "@utils/*": [
+        "./src/utils/*"
+      ],
+      "@theme/*": [
+        "./src/theme/*"
+      ],
+      "@lib/*": [
+        "./src/lib/*"
+      ],
+      "@images/*": [
+        "./src/images/*"
+      ],
+      "@store/*": [
+        "./src/store/*"
+      ],
+    },
+    "target": "esnext",
+    "lib": [
+      "dom",
+      "es2015",
+      "ESNext.String"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -12,9 +55,20 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
     "jsx": "preserve",
-    "incremental": true
+    "incremental": true,
+    "typeRoots": [
+      "../../node_modules/@types",
+      "./typings"
+  ]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "**/*.ts", 
+    "**/*.tsx", 
+    "**/*.js", 
+    "**/*.jsx"
+  ],
   "exclude": ["node_modules"]
 }
