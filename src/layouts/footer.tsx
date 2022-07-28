@@ -24,7 +24,7 @@ const Footer: React.FC<Props> = ({ css, containerCss }) => {
       }}
     >
       <Row justify="center" css={css}>
-        {/* <Text
+         <Text
           span
           className="footer__copy"
           css={{
@@ -35,9 +35,9 @@ const Footer: React.FC<Props> = ({ css, containerCss }) => {
             }
           }}
         >
-          &copy;&nbsp;Copyright&nbsp;{year}&nbsp;NextUI
+          &copy;&nbsp;Copyright&nbsp;{2022}&nbsp;QRC.global
         </Text>
-        <Spacer x={0.5} /> */}
+        <Spacer x={0.5} /> 
         <Text
           span
           className="footer__by"

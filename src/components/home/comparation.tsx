@@ -54,7 +54,7 @@ const ComparationSection = () => {
                   }}
                 />
               )}
-              <Text css={{ color: '$text', fontSize: '$xl' }}>NextUI</Text>
+              <Text css={{ color: '$text', fontSize: '$xl' }}>Matrix</Text>
             </Col>
           </Grid>
           <Grid
