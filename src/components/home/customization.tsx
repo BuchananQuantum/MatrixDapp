@@ -44,13 +44,13 @@ const CustomizationSection = () => {
             rel="noreferer noopener"
             target="_blank"
             css={{ color: '$green600' }}
-          >Ceramic Network&apos;s</Link> DID Identifier 
+          >Ceramic Networks</Link> DID Identifier 
           &amp; &nbsp;<Link
             href="https://walletconnect.com"
             rel="noreferer noopener"
             target="_blank"
             css={{ color: '$green600' }}
-          >WalletConnect</Link> we&apos;re able to put together a truly decentralized 
+          >WalletConnect</Link> were able to put together a truly decentralized 
           experience revolving around Creators, Vendors, and Patrons with&nbsp;
           <Link
             href="https://qrc.global/"
@@ -60,7 +60,7 @@ const CustomizationSection = () => {
           >
              QRC
           </Link>
-          , bridging the gap between web3 ID&apos;s, Streams, Subscriptions, Wallet Chat Messenger and Universal Profiles!
+          , bridging the gap between web3 IDs, Streams, Subscriptions, Wallet Chat Messenger and Universal Profiles!
           Checkout the&nbsp;
           <NextLink href="/docs/theme/override-styles#using-the-css-prop">
             <Link css={{ color: '$green700' }}>MarketPlace&nbsp;</Link>
