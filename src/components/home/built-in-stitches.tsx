@@ -42,8 +42,7 @@ const items = [
 const BuiltInStitchesSection = () => {
   const [activeItem, setActiveItem] = React.useState(items[0]);
   const [isVisible, setIsVisible] = React.useState(false);
-
-  const handleChange = (value: number) => {
+  const handleChange = (value: any) => {
     setActiveItem(items[value - 1]);
   };
 
@@ -97,7 +96,7 @@ const BuiltInStitchesSection = () => {
             }}
           >
             <Col>
-              <Collapse.Group accordion onChange={handleChange}>
+              <Collapse.Group onChange={handleChange} accordion >
                 {items.map(({ id, title, description }) => (
                   <Collapse
                     key={id}

@@ -31,7 +31,7 @@ const CustomizationSection = () => {
           />
         </Box>
         <Row justify="flex-start">
-          <Title>Customization your</Title>
+          <Title>Customize your</Title>
         </Row>
         <Row justify="flex-start">
           <Title color="green">Matrix</Title>
