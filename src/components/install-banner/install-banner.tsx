@@ -59,7 +59,7 @@ const InstallBanner: React.FC = () => {
       >
         <Grid.Container gap={2}>
           <Grid xs={12} md={6} direction="column" justify="center">
-            <Title css={{ fontSize: '2.4rem' }}>Lets make Web`</Title>
+            <Title css={{ fontSize: '2.4rem' }}>Lets make Web</Title>
             <Title color="violet" css={{ fontSize: '2.4rem' }}>
               For Ourselves
             </Title>
