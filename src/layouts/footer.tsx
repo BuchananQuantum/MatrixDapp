@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Text, Link, CSS } from '@nextui-org/react';
+import { Container, Row, Text, Link, CSS, Spacer } from '@nextui-org/react';
 import { VercelCallout } from '@components';
 
 export interface Props {
