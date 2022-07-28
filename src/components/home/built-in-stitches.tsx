@@ -14,7 +14,6 @@ import {
 } from '@nextui-org/react';
 import landingContent from '@content/landing';
 import { CodeDemo, Blockholder } from '@components';
-import Image from 'next/image';
 
 const items = [
   {
@@ -64,7 +63,7 @@ const BuiltInStitchesSection = () => {
             }
           }}
         >
-          <Image src="/stitches-gradient.svg" alt="theming background" />
+          <img  src="/stitches-gradient.svg" alt="theming background" />
         </Box>
         <Row justify="flex-start">
           <Title>Built-in Digital</Title>
@@ -98,7 +97,7 @@ const BuiltInStitchesSection = () => {
             }}
           >
             <Col>
-              <Collapse.Group accordion>
+              <Collapse.Group accordion onChange={handleChange}>
                 {items.map(({ id, title, description }) => (
                   <Collapse
                     key={id}

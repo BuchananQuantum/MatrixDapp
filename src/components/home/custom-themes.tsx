@@ -9,7 +9,6 @@ import landingContent from '@content/landing';
 import { Blockholder, ShopCard, CodeDemo } from '@components';
 import { useTheme } from 'next-themes';
 import { get } from 'lodash';
-import Image from 'next/image';
 
 const codeHighlights = {
   nextui: '3-11',
@@ -56,7 +55,7 @@ const CustomThemesSection = () => {
             }
           }}
         >
-          <Image src="/theming-gradient.svg" alt="theming background" />
+          <img  src="/theming-gradient.svg" alt="theming background" />
         </Box>
         <Row justify="flex-start">
           <Title>Apply your own</Title>

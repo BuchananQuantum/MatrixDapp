@@ -8,7 +8,7 @@ import landingContent from '@content/landing';
 import { darkTheme, lightTheme } from '@theme/shared';
 import {  Player, Blockholder, CodeDemoBlock } from '@components';
 import { Moon, Sun } from '../icons';
-import Image from 'next/image';
+
 
 const playerDarkTheme = createTheme({
   type: 'dark',
@@ -51,7 +51,7 @@ const DarkModeSection = () => {
             }
           }}
         >
-          <Image src="/dark-mode-gradient.svg" alt="dark mode background" />
+          <img src="/dark-mode-gradient.svg" alt="dark mode background" />
         </Box>
         <Row justify="flex-start">
           <Title>Matrix mode</Title>

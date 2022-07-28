@@ -6,7 +6,6 @@ import { Grid, Row, Col, Link, Spacer } from '@nextui-org/react';
 import landingContent from '@content/landing';
 import { darkTheme } from '@theme/shared';
 import { CodeDemoBlock, CustomButton, Blockholder } from '@components';
-import Image from 'next/image';
 
 const CustomizationSection = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -26,7 +25,7 @@ const CustomizationSection = () => {
             }
           }}
         >
-          <Image
+          <img
             src="/customization-gradient.svg"
             alt="customization background"
           />
