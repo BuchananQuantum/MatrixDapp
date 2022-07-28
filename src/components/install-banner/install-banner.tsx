@@ -59,7 +59,7 @@ const InstallBanner: React.FC = () => {
       >
         <Grid.Container gap={2}>
           <Grid xs={12} md={6} direction="column" justify="center">
-            <Title css={{ fontSize: '2.4rem' }}>Let`&apos;`s make Web`</Title>
+            <Title css={{ fontSize: '2.4rem' }}>Let&apos;s make Web`</Title>
             <Title color="violet" css={{ fontSize: '2.4rem' }}>
               For Ourselves
             </Title>
@@ -73,7 +73,7 @@ const InstallBanner: React.FC = () => {
                 }
               }}
             >
-              Try matrix, it`&apos;`s one QR Code away! Share with us what you`&apos;`d like to see next!
+              Try matrix, it&apos;s one QR Code away! Share with us what you&apos;d like to see next!
             </Subtitle>
             <Grid.Container xs={12} alignItems="center">
               <Grid xs={12} sm={2.5}>

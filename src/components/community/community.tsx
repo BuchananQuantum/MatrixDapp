@@ -27,7 +27,7 @@ const Community: React.FC<CommunityProps> = ({ twitter, github, discord }) => {
     <Grid.Container justify="center" gap={2} css={{ position: 'relative' }}>
       <Grid xs={12} direction="column" css={{ mb: '$10' }}>
         <Row justify="center">
-          <Title css={{ textAlign: 'center' }}>It`&apos;`s a Choice...</Title>
+          <Title css={{ textAlign: 'center' }}>It&apos;s a Choice...</Title>
         </Row>
         <Row justify="center">
           <Subtitle css={{ textAlign: 'center' }}>
